@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Reveal.js",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "willbuck",
+    "githubRepository": "revealjs-midwestjs-2015"
+  }
+}

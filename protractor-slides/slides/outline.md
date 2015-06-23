@@ -7,8 +7,8 @@
 	- Dare yourself to learn and share what you find with the community
 - Short prezz demonstrating merits (http://ramonvictor.github.io/protractor/slides/)
 	- What it can do
-	- Why do it
-	- Who uses it
+	- Why do it		
+	- Rather than talk a lot, would rather demo so... on to the code!
 
 - Demo a non-angular site (MidwestJS?)
 	- Measure angles between elements (maybe on different screen sizes?)
@@ -24,12 +24,20 @@
 			- http://commons.wikimedia.org/wiki/File:Protractor1.svg
 		- http://crudbetter.com/test-angularjs-svg-directive/
 		- Bottom nav? Follows the scroll? That'd be wicked cool
+		- Or perhaps an overlay for images, click and it shows an angle
 - Demo benchpress
 	- Learn more?
 
 - Wrap-up
 	- Address CI / slowness story
+		- CI Challenges
+			- Webdriver server?
+			- Data cleanup?
+			- Install node in user land! (permission issues suck)
+	- Good use cases
+		- Smoke test of builds
+		- Short tests that assert various integration points (DB, third party apps) are connected
+			- These are easy things to miss so great to have an automated check!
 
 note:
-    Put your speaker notes here.
-    You can see them pressing 's'.
+    

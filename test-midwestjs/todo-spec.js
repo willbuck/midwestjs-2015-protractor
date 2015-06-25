@@ -5,13 +5,22 @@
 
     describe('midwestjs.com', function() {
       describe('home page', function() {
-        it('should have a cow', function() {
+        beforeEach(function() {
             browser.get('http://midwestjs.com');
-            
+        });
+
+        it('should have a cow', function() {                    
             var cheeseContainer = element(by.id('logo'));
             expect(cheeseContainer.isPresent()).toBe(true);
             var imageMooExists = cheeseContainer.isElementPresent(by.tagName('img'));
             expect(imageMooExists).toBe(true);
+        });
+
+        it('should have a clickable twitter link to @midwest_js', function() {
+            // TODO this looks horribly brittle, how do I not do this?
+            var littleBirdie = element(by.css('div#logo div a:first-child img'));
+            littleBirdie.click();            
+            expect(browser.getCurrentUrl()).toBe("https://twitter.com/midwest_js");            
         });
       });  
 

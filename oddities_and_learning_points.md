@@ -1,6 +1,6 @@
 # Places I got stuck:
 - What type of thing exactly is the 1st argument in .filter(elem, index) ? 
-
+- Have to new up Page Objects in the beforeEach
 
 
 # Thoughts and opinions:

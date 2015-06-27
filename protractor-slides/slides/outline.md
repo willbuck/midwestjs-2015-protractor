@@ -38,6 +38,9 @@
 		- Smoke test of builds
 		- Short tests that assert various integration points (DB, third party apps) are connected
 			- These are easy things to miss so great to have an automated check!
+		- In some cases, data creation! 
+			- If your UI is the only simple way to create the complex data your app requires, that's a smell
+			- But if you can automate that, voila! Easy to create test users
 
 note:
     

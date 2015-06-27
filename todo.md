@@ -3,14 +3,13 @@ x Wrote first test
 x Wrote speakers tests
 x Wrote me tests w/ clicks
 x Wrote navigation tests for twitter
+x Refactor into some page objects
 
 Tomorrow:
-- Refactor into some page objects
-
+- Use fixed window sizes to check angles
 
 Future TODO:
 - Set self up in VSCode w/ DefinitelyTyped
-- Use fixed window sizes to check angles
 
 - Try writing actual protractor as angular app
 - Test a real angular app

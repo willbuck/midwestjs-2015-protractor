@@ -5,6 +5,7 @@
 - http://angular.github.io/protractor/#/
 - http://angular.github.io/protractor/#/api?view=ElementFinder (So far most used for non-angular)
 - https://github.com/ramonvictor/gulp-protractor-qa (cool if using angular app, needs PRs for the non-angular selectors)
+- https://github.com/angular/protractor/blob/master/docs/page-objects.md
 
 note:
     Put your speaker notes here.

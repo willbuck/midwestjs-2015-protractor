@@ -21,7 +21,9 @@ describe('midwestjs.com', function() {
         var cheeseSize = homepage.mooCheese.getWebElement().getSize();
         cheeseSize.then(function(result) {
           expect(result.width).toBe(400);
-          expect(result.height).toBe(400)
+          expect(result.height).toBe(400);
+          expect(homepage.angleInDegrees(result.height, result.width)).toBe(45);
+          expect(homepage.angleInDegrees(result.width, result.height)).toBe(45);
         });        
         // TODO put an 'angle' test here (because I painted it into the talk title... derp)
     });

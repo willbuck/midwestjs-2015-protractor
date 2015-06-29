@@ -24,11 +24,10 @@ describe('midwestjs.com', function() {
           expect(result.height).toBe(400);
           expect(homepage.angleInDegrees(result.height, result.width)).toBe(45);
           expect(homepage.angleInDegrees(result.width, result.height)).toBe(45);
-        });        
-        // TODO put an 'angle' test here (because I painted it into the talk title... derp)
+        });                
     });
 
-    it('should have a clickable twitter link to @midwest_js', function() {        
+    it('should have a clickable twitter link to @midwest_js', function() {
         homepage.littleBirdie.click();            
         expect(browser.getCurrentUrl()).toBe(homepage.littleBirdieLinkTarget);            
     });

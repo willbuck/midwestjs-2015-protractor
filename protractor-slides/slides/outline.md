@@ -12,6 +12,10 @@
 
 - Demo a non-angular site (MidwestJS?)
 	- Measure angles between elements (maybe on different screen sizes?)
+	- Touch on points that gave me struggle:
+		- Most everything returns promises, some resolve "in time" seemingly while others must use callbacks for expectations...
+		- What to put in a page object can be a tough choice
+		- Naming things is hard
 - Demo an angular one (should I make it? Prize-o-tron?)
 	- YES
 	- Directive
@@ -26,7 +30,8 @@
 		- Bottom nav? Follows the scroll? That'd be wicked cool
 		- Or perhaps an overlay for images, click and it shows an angle
 - Demo benchpress
-	- Learn more?
+	- https://github.com/angular/angular/blob/master/modules/benchpress/docs/index.md
+	- Sounds like good for higher level benchmarks, avoids 'micro-benchmark'ing
 
 - Wrap-up
 	- Address CI / slowness story

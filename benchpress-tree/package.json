@@ -11,22 +11,7 @@
   "dependencies": {
     "benchpress": "^2.0.0-alpha.25",
     "http-server": "^0.7.5",
-    "protractor": "^1.7.0"
-  },
-  "jspm": {
-    "directories": {
-      "baseURL": "public",
-      "packages": "jspm_packages"
-    },
-    "configFile": "jspm.config.js",
-    "dependencies": {
-      "angular2": "npm:angular2@^2.0.0-alpha.28",
-      "es6-shim": "github:es-shims/es6-shim@^0.32.3",
-      "reflect-metadata": "npm:reflect-metadata@^0.1.0",
-      "zone.js": "npm:zone.js@^0.5.1"
-    }
-  },
-  "devDependencies": {
+    "protractor": "^1.7.0",
     "reflect-metadata": "^0.1.0"
   }
 }

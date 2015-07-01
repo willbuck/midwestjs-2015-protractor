@@ -29,6 +29,7 @@ describe('midwestjs.com', function() {
 
     it('should have a clickable twitter link to @midwest_js', function() {
         homepage.littleBirdie.click();            
+        // Why do we not need a then after this?
         expect(browser.getCurrentUrl()).toBe(homepage.littleBirdieLinkTarget);            
     });
   });  

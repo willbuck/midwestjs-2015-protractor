@@ -1,7 +1,9 @@
-[
-    "index.md",
+[    
     "title.md",
-    "outline.md",
-    "resources.md",
-    "gotchas-title.md"
+    [
+      "gotchas/gotchas-title.md",
+      "gotchas/gotchas-promises.md"  
+    ],
+    "resources.md"
+    
 ]

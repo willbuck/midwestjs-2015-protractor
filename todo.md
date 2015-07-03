@@ -17,6 +17,9 @@ x Check angles
 Tomorrow:
 - Start writing actual protractor as angular app
 
+Ongoing:
+- Write slides (a little progress each day)
+
 Future TODO:
 
 - Use fixed window sizes to check angles?
@@ -26,8 +29,8 @@ Future TODO:
 
 - Experiment with benchpress
 
-- Make a few slides (follow outline)
+- Polish slides into final presentation
+- Practice it at least once (it's been enough in the past eh?)
 
 - Create an 'order' of commits to follow for live-coding
 - Practice live-coding
-- Iterate & refine those previous two

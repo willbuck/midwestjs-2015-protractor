@@ -1,8 +1,13 @@
 [    
     "title.md",
     [
-      "gotchas/gotchas-title.md",
-      "gotchas/gotchas-promises.md"  
+      "personalBG/play.personalBG.md",
+      "personalBG/mn.personalBG.md",
+      "personalBG/code.personalBG.md"  
+    ],
+    [
+      "gotchas/title.gotchas.md",
+      "gotchas/promises.gotchas.md"  
     ],
     "resources.md"
     

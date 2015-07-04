@@ -1,14 +1,23 @@
 [    
     "title.md",
     [
+      "personalBG/title.personalBG.md",
       "personalBG/play.personalBG.md",
       "personalBG/mn.personalBG.md",
       "personalBG/code.personalBG.md"  
     ],
     [
+      "presentationBG/confession.presentationBG.md",
+      "presentationBG/crazy.presentationBG.md",
+      "presentationBG/dare.presentationBG.md",
+      "presentationBG/prove.presentationBG.md",
+      "presentationBG/learned.presentationBG.md"  
+    ],
+    [
       "gotchas/title.gotchas.md",
       "gotchas/promises.gotchas.md"  
     ],
-    "resources.md"
+    "resources.md",
+    "thanks.md"
     
 ]

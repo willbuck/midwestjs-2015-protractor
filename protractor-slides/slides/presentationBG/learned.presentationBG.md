@@ -1,0 +1,3 @@
+So Without Further Ado,
+
+Here's what I learned...

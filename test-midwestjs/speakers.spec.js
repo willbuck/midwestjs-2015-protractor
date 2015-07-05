@@ -1,3 +1,4 @@
+/// <reference path="./typings/tsd.d.ts" />
 var Speakers = require('./speakers.po.js');
 
 beforeEach(function() {

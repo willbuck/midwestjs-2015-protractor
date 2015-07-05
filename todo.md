@@ -12,7 +12,7 @@ x Refactor into some page objects
 
 x Check angles
 
-- Set self up in VSCode w/ DefinitelyTyped
+x Set self up in VSCode w/ DefinitelyTyped references
 
 Tomorrow:
 - Start writing actual protractor as angular app
@@ -21,13 +21,14 @@ Ongoing:
 - Write slides (a little progress each day)
 
 Future TODO:
-
 - Use fixed window sizes to check angles?
 
 - Try writing actual protractor as angular app
 - Test a real angular app
 
 - Experiment with benchpress
+
+- Setup all tests on SnapCI or CodeShip & link on github page
 
 - Polish slides into final presentation
 - Practice it at least once (it's been enough in the past eh?)

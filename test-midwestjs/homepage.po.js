@@ -1,3 +1,4 @@
+/// <reference path="./typings/tsd.d.ts" />
 function Homepage() {
 	this.mooCheese = element(by.css('div#logo img'));
 	this.littleBirdie = element(by.css('div#logo div a:first-child img'));

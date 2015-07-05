@@ -1,3 +1,4 @@
+/// <reference path="./typings/tsd.d.ts" />
 var Homepage = require('./homepage.po.js');
 
 beforeEach(function() {

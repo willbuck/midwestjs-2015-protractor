@@ -10,6 +10,9 @@
     },
     "selenium-webdriver/selenium-webdriver.d.ts": {
       "commit": "4ba73ef59f93e38a70573cfc46375de37b004635"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "ab3cc82066805007cbf0db233ddb5879f42be4d2"
     }
   }
 }

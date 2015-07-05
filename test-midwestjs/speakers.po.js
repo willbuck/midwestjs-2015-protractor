@@ -1,3 +1,4 @@
+/// <reference path="./typings/tsd.d.ts" />
 function Speakers() {
 	this.allSpeakers = element.all(by.css('div.col-md-4.speaker'));
 	this.willbuck = findMe.apply(this);

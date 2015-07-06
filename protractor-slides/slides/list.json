@@ -14,6 +14,10 @@
       "presentationBG/learned.presentationBG.md"  
     ],
     [
+        "whyE2E/users.whyE2E.md",
+        "whyE2E/smoke.whyE2E.md"
+    ],
+    [
       "gotchas/title.gotchas.md",
       "gotchas/promises.gotchas.md"  
     ],

@@ -1,0 +1,8 @@
+{
+  "jspm": {
+    "directories": {},
+    "devDependencies": {
+      "typescript": "github:mhegazy/typescript@v1.5-beta2"
+    }
+  }
+}

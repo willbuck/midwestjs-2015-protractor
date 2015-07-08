@@ -7,6 +7,10 @@
       System.import('./app');
     </script>
   </head>
-  <body>
+  <body ng-app="angle-measurer">
+    <div ng-controller="TestController as vm">
+      Hello, <span ng-bind="::vm.hello"></span>
+    </div>
+      
   </body>
 </html>

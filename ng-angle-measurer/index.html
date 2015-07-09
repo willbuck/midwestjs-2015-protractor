@@ -11,6 +11,14 @@
     <div ng-controller="TestController as vm">
       Hello, <span ng-bind="::vm.hello"></span>
     </div>
-      
+    <svg width="300" height="300" style="bottom: 0px">
+      <!--outer shell-->
+      <path d="M 75 300
+        A 75 75, 0, 0, 1, 225 300
+        L 75 300 Z" fill="red"/>
+      <path d="M 105 280
+        A 50 50, 0, 0, 1, 195 280
+        L 105 280 Z" fill="white"/>               
+    </svg>  
   </body>
 </html>

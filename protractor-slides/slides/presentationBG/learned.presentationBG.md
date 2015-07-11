@@ -1,3 +1,3 @@
-So Without Further Ado,
+I hope this provided some value to someone
 
-Here's what I learned...
+If it did, I'm cool

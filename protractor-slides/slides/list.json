@@ -5,27 +5,29 @@
       "personalBG/play.personalBG.md",
       "personalBG/mn.personalBG.md",
       "personalBG/code.personalBG.md"  
+    ],    
+    [
+        "whyE2E/title.whyE2E.md",
+        "whyE2E/users.whyE2E.md",
+        "whyE2E/smoke.whyE2E.md",
+        "whyE2E/cd.whyE2E.md"
+    ],
+    [
+        "neutralWeb/basically.neutralWeb.md",
+        "neutralWeb/selectors.neutralWeb.md"
+    ],
+    [
+      "gotchas/title.gotchas.md",
+      "gotchas/promises.gotchas.md"  
     ],
     [
       "presentationBG/confession.presentationBG.md",
       "presentationBG/crazy.presentationBG.md",
       "presentationBG/dare.presentationBG.md",
       "presentationBG/prove.presentationBG.md",
+      "presentationBG/fear.presentationBG.md",
       "presentationBG/learned.presentationBG.md"  
-    ],
-    [
-        "whyE2E/users.whyE2E.md",
-        "whyE2E/smoke.whyE2E.md"
-    ],
-    [
-        "nuetralWeb/basically.neutralWeb.md",
-        "nuetralWeb/.neutralWeb.md"
-    ],
-    [
-      "gotchas/title.gotchas.md",
-      "gotchas/promises.gotchas.md"  
-    ],
-    "resources.md",
-    "thanks.md"
-    
+    ],    
+    "thanks.md",
+    "resources.md"    
 ]

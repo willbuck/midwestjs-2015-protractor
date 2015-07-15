@@ -17,6 +17,10 @@
         "neutralWeb/selectors.neutralWeb.md"
     ],
     [
+        "withAngular/title.withAngular.md",
+        "withAngular/buttons.withAngular.md"
+    ],
+    [
       "gotchas/title.gotchas.md",
       "gotchas/promises.gotchas.md"  
     ],

@@ -12,13 +12,23 @@ describe('Prize-O-Tron', function() {
       mainpage.get();      
     });
     
-    it('should have the apiKey and eventId inputs', function() {            
+    it('should have the page object elements present and in a default state', function() {            
       expect(mainpage.eventIdInput.isPresent()).toBe(true);        
-      expect(mainpage.apiKeyInput.isPresent()).toBe(true); 
+      expect(mainpage.apiKeyInput.isPresent()).toBe(true);
+      expect(mainpage.importButton.isPresent()).toBe(true);
+      expect(mainpage.selectWinnerButton.isPresent()).toBe(true);
+      expect(mainpage.resetButton.isPresent()).toBe(true);
+      expect(mainpage.remainingBadge.isPresent()).toBe(true);
+      expect(mainpage.selectedBadge.isPresent()).toBe(true);
+      expect(mainpage.remainingBadge.getText()).toBe('0');
+      expect(mainpage.selectedBadge.getText()).toBe('0'); 
     });
     
-    it('should load pictures for some given', function() {            
-      expect(secrets.goodApiKey).toBe('DONT COMMIT THIS');
+    it('should load pictures for a good apiKey and eventId', function() {            
+      mainpage.apiKeyInput.sendKeys(secrets.goodApiKey);
+      mainpage.eventIdInput.sendKeys(secrets.goodEventId);
+      mainpage.importButton.click();
+      expect(mainpage.remainingBadge.getText()).toBe('7');
     });
   });    
 });

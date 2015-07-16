@@ -25,10 +25,39 @@ describe('Prize-O-Tron', function() {
     });
     
     it('should load pictures for a good apiKey and eventId', function() {            
-      mainpage.apiKeyInput.sendKeys(secrets.goodApiKey);
-      mainpage.eventIdInput.sendKeys(secrets.goodEventId);
-      mainpage.importButton.click();
+      mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);
+      // TODO this is linked to the secret.eventId, should I put it there? 
+      // I think so but then I already committed the 'shape' of that file...
       expect(mainpage.remainingBadge.getText()).toBe('7');
     });
+    
+    it('should load nothing for a bad apiKey and eventId', function() {            
+      mainpage.importEventData(secrets.badApiKey, secrets.badEventId);
+      // TODO this is linked to the secret.eventId, should I put it there? 
+      // I think so but then I already committed the 'shape' of that file...
+      expect(mainpage.remainingBadge.getText()).toBe('0');
+    });    
+    
+    it('should reduce the count of RSVPs whenever a winner is selected, and increase the selected count', function() {
+      mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);
+      mainpage.remainingBadge.getText().then(function(rsvpCount) {
+        var numSelected = 0;
+        while(numSelected < rsvpCount) {
+          mainpage.selectWinnerButton.click();
+          numSelected++;                  
+          expect(mainpage.remainingBadge.getText()).toBe('' + (rsvpCount - numSelected));          
+          expect(mainpage.selectedBadge.getText()).toBe('' + numSelected);                    
+        }
+        // Button should then become unclickable   
+        expect(mainpage.selectWinnerButton.isEnabled()).toBe(false);
+      });
+         
+    });
+    
+    // TODO test randomness, how do I do that?
+    it('should load pictures for a good apiKey and eventId', function() {                  
+      expect('random').toBe(true);
+    });
+        
   });    
 });

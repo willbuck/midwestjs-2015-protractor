@@ -9,12 +9,21 @@ function MainPage() {
 	this.resetButton = element(by.buttonText('Reset Everything'));
 	// Bindings
 	this.remainingBadge = element(by.binding('rsvps.length'))
-	this.selectedBadge = element(by.binding('selected.length'))	
+	this.selectedBadge = element(by.binding('selected.length'))
+	// TODO repeater lists here?	
 	// Utility functions
 	this.get = get;	
+	this.importEventData = importEventData;
 
 	function get() {
 		browser.get('http://prize-o-tron.herokuapp.com/');
 	}
+	
+	function importEventData(apiKey, eventId) {
+      this.apiKeyInput.sendKeys(apiKey);
+      this.eventIdInput.sendKeys(eventId);
+      this.importButton.click();
+    }
+	
 }
 module.exports = MainPage;

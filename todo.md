@@ -24,6 +24,9 @@ Ongoing:
 - Write slides (a little progress each day)
 
 Future TODO:
+- Prize-O-Tron:
+  - Figure out how to mock out $httpBackend call
+
 - Setup all tests on SnapCI or CodeShip & link on github page
 
 - Experiment with benchpress

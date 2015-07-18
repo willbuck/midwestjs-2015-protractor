@@ -1,16 +1,34 @@
 [    
     "title.md",
     [
-      "personalBG/title.personalBG.md",
-      "personalBG/play.personalBG.md",
-      "personalBG/mn.personalBG.md",
-      "personalBG/code.personalBG.md"  
+        "personalBG/title.personalBG.md",
+        "personalBG/play.personalBG.md",
+        "personalBG/mn.personalBG.md",
+        "personalBG/code.personalBG.md"  
     ],    
+    [
+        "what/title.what.md",
+        "what/notEZE.what.md",
+        "what/definition.what.md"  
+    ],
     [
         "whyE2E/title.whyE2E.md",
         "whyE2E/users.whyE2E.md",
         "whyE2E/smoke.whyE2E.md",
         "whyE2E/cd.whyE2E.md"
+    ],
+    [
+        "E2EDownsides/title.E2EDownsides.md",
+        "E2EDownsides/slow.E2EDownsides.md",
+        "E2EDownsides/brittle.E2EDownsides.md",
+        "E2EDownsides/mitigation.E2EDownsides.md"
+    ],
+    [
+        "how/title.how.md",
+        "how/protractor.how.md",
+        "how/spec.how.md",
+        "how/pageObject.how.md",
+        "how/conf.how.md"
     ],
     [
         "neutralWeb/basically.neutralWeb.md",

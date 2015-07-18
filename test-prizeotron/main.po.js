@@ -22,7 +22,7 @@ function MainPage() {
 	function importEventData(apiKey, eventId) {
       this.apiKeyInput.sendKeys(apiKey);
       this.eventIdInput.sendKeys(eventId);
-      this.importButton.click();
+      return this.importButton.click();
     }
 	
 }

@@ -11,24 +11,32 @@ x Set self up in VSCode w/ DefinitelyTyped references
 
 x Prize-o-tron
   x PageObject & tests confirming existence
-  x 
+  x Winner picking is exhaustive (not going to test randomness)
+  x Reset functionality
 
 #Tomorrow:
 - Prize-o-tron
-  - Reset
+  - mock httpBackend?
 
 #Ongoing:
 - Write slides (a little progress each day)
+  - Need more on withAngular
+  - Comment on httpBackend mocking? 
 
 #Future TODO:
+
+## Week of 13th
 - Prize-O-Tron:
   - Figure out how to mock out $httpBackend call
 
 ## Week of 20th
 - Setup all tests on SnapCI or CodeShip & link on github page
+- Work out some logical *suites* (note its on a per-file basis)
 
 ## Week of 27th
 - Experiment with benchpress
+- Try to test a directive myself
+- Try to test routing myself
 
 ## Week of 3rd
 - Polish slides into final presentation
@@ -42,4 +50,7 @@ x Prize-o-tron
 - Create an 'order' of commits to follow for live-coding
 - Practice live-coding
 
-## Countdown: 28 days to presentation!
+## Maybe able to get done at work and report back?
+- Using Cucumber (because ATDD ALL THE THINGS!)
+
+## Countdown: 27 days to presentation!

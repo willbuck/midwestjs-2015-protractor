@@ -5,7 +5,7 @@ var MainPageSecrets = require('./main.secrets.js');
 describe('Prize-O-Tron', function() {
   var mainpage,
     secrets,
-    EXPECTED_MEETUP_ATTENDEES_FOR_SECRET = '7',
+    EXPECTED_MEETUP_ATTENDEES_FOR_SECRET = '7', // TODO WHERE SHOULD THESE GO??
     EXPECTED_DEFAULT_BADGE_TEXT = '0';
     
   describe('main page', function() {
@@ -29,18 +29,24 @@ describe('Prize-O-Tron', function() {
       });
     });
     
+    
     describe('meetup API input boxes', function() {
-      it('should load pictures for a good apiKey and eventId', function() {            
-        mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);
-        // TODO this is linked to the secret.eventId, should I put it there? 
-        // I think so but then I already committed the 'shape' of that file...
-        // alternative: I mock out the $httpbackend
-        expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_MEETUP_ATTENDEES_FOR_SECRET);
+      describe('using the live meetup API and secret key / eventId', function() {
+        it('should load pictures for a good apiKey and eventId', function() {            
+          mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);                
+          expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_MEETUP_ATTENDEES_FOR_SECRET);
+        });
+        
+        it('should load nothing for a bad apiKey and eventId', function() {            
+          mainpage.importEventData(secrets.badApiKey, secrets.badEventId);        
+          expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
+        });
       });
-      
-      it('should load nothing for a bad apiKey and eventId', function() {            
-        mainpage.importEventData(secrets.badApiKey, secrets.badEventId);        
-        expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
+      describe('using a mocked http backend', function() {
+        // TODO this looks like it might be a lot harder than I thought
+        // it's late, start from here tomorrow:
+        // http://angular.github.io/protractor/#/api?view=Protractor.prototype.addMockModule
+        // https://www.committedcoder.com/using-protractor-mocks-pt-2.html
       });
     });        
     

@@ -31,6 +31,9 @@
         "how/conf.how.md"
     ],
     [
+      "ci/title.gotchas.md"        
+    ],
+    [
         "neutralWeb/basically.neutralWeb.md",
         "neutralWeb/selectors.neutralWeb.md"
     ],

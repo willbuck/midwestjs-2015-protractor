@@ -43,6 +43,9 @@ x Prize-o-tron
 - Practice it at least once (it's been enough in the past eh?)
 - Add my twitter handle & bit.ly link to the slides gh-pages
 
+## Week of 10th
+- *Hopefully* just practice and polish! Maybe if I add more scope I'll encroach on this
+
 #Potentially scrapped for being overly ambitious:
 - Try writing actual protractor directive as angular app & testing it
 - Use fixed window sizes to check angles?
@@ -53,4 +56,4 @@ x Prize-o-tron
 ## Maybe able to get done at work and report back?
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 27 days to presentation!
+## Countdown: 26 days to presentation!

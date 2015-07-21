@@ -14,23 +14,26 @@ x Prize-o-tron
   x Winner picking is exhaustive (not going to test randomness)
   x Reset functionality
 
+#What I did today:
+- A lot of research on SnapCI and running Protractor headless
+- Started to get project rolling on SnapCI
+
 #Tomorrow:
-- Prize-o-tron
-  - mock httpBackend?
+- Make progress towards
 
 #Ongoing:
 - Write slides (a little progress each day)
   - Need more on withAngular
-  - Comment on httpBackend mocking? 
+  - Comment on httpBackend mocking?
+  
+- Prize-o-tron
+  - mock httpBackend? 
 
 #Future TODO:
 
-## Week of 13th
-- Prize-O-Tron:
-  - Figure out how to mock out $httpBackend call
-
 ## Week of 20th
-- Setup all tests on SnapCI or CodeShip & link on github page
+- Setup all tests on SnapCI
+- Watch for SnapCI badge to be implemented [Outstanding GH PR](https://github.com/badges/shields/pull/492)
 - Work out some logical *suites* (note its on a per-file basis)
 
 ## Week of 27th
@@ -56,4 +59,4 @@ x Prize-o-tron
 ## Maybe able to get done at work and report back?
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 26 days to presentation!
+## Countdown: 25 days to presentation!

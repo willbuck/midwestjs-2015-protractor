@@ -1,5 +1,4 @@
-exports.config = {
-	
+exports.config = {	
 	specs: ['./*.spec.js'],
 	
 	seleniumArgs: ['-browserTimeout=60'],

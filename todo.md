@@ -14,12 +14,16 @@ x Prize-o-tron
   x Winner picking is exhaustive (not going to test randomness)
   x Reset functionality
 
+x Snap-ci
+  x Actually running my protractor tests
+
 #What I did today:
-- A lot of research on SnapCI and running Protractor headless
-- Started to get project rolling on SnapCI
+- Tests run on SnapCI!
 
 #Tomorrow:
-- Make progress towards
+- Find out why tests aren't passing
+- Work on generating a pretty results report (what failed and why?)
+- move protractor install to root so we can run the midwest-js specs as well
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -44,7 +48,7 @@ x Prize-o-tron
 ## Week of 3rd
 - Polish slides into final presentation
 - Practice it at least once (it's been enough in the past eh?)
-- Add my twitter handle & bit.ly link to the slides gh-pages
+- Add my twitter handle & bit.ly link to the slides gh-pages (also *make* the gh-pages)
 
 ## Week of 10th
 - *Hopefully* just practice and polish! Maybe if I add more scope I'll encroach on this
@@ -59,4 +63,4 @@ x Prize-o-tron
 ## Maybe able to get done at work and report back?
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 25 days to presentation!
+## Countdown: 24 days to presentation!

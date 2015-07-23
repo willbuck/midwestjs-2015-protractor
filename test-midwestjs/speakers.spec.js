@@ -13,8 +13,9 @@ describe('speakers page', function() {
         speakers.get();        
     });
 
-    it('should have 39 speakers', function() {                            
-        expect(speakers.allSpeakers.count()).toBe(39);
+    it('should have 48 speakers', function() {      
+        // Workshops were added, really there are 39 speakers still though                      
+        expect(speakers.allSpeakers.count()).toBe(48);
     });
     it('should have a speaker named Will', function() {                
         expect(speakers.willbuck.isPresent()).toBe(true);        

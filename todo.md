@@ -63,4 +63,4 @@ x Snap-ci
 ## Maybe able to get done at work and report back?
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 24 days to presentation!
+## Countdown: 23 days to presentation!

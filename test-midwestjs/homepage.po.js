@@ -1,7 +1,7 @@
 /// <reference path="../typings/tsd.d.ts" />
 function Homepage() {
 	this.mooCheese = element(by.css('div#logo img'));
-	this.littleBirdie = element(by.css('div#logo div a:first-child img'));
+	this.littleBirdie = element(by.css('div#logo div a:first-child'));
 	this.littleBirdieLinkTarget = "https://twitter.com/midwest_js";
 	this.get = get;
 	this.angleInDegrees = angleInDegrees;

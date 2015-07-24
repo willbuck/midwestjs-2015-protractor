@@ -18,7 +18,7 @@ x Snap-ci
   x Actually running my protractor tests
 
 #What I did today:
-- Tests run on SnapCI!
+- Tried to find out why tests aren't passing
 
 #Tomorrow:
 - Find out why tests aren't passing
@@ -63,4 +63,4 @@ x Snap-ci
 ## Maybe able to get done at work and report back?
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 23 days to presentation!
+## Countdown: 22 days to presentation!

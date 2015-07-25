@@ -1,4 +1,4 @@
-#Past:
+# DONE:
 x MidwestJS
   x Wrote first test
   x Wrote speakers tests
@@ -16,14 +16,14 @@ x Prize-o-tron
 
 x Snap-ci
   x Actually running my protractor tests
+  x move protractor install to root so we can run the midwest-js specs as well
+  x Work out some logical *suites*, but on a per-file basis (TODO can it we do individual test methods without Cucumber?)
 
 #What I did today:
-- Tried to find out why tests aren't passing
+- Added some reporting capabilities
 
 #Tomorrow:
-- Find out why tests aren't passing
-- Work on generating a pretty results report (what failed and why?)
-- move protractor install to root so we can run the midwest-js specs as well
+- Find out why tests aren't passing!! Ughh I need it to wait longer or something, spotty results
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -38,12 +38,11 @@ x Snap-ci
 ## Week of 20th
 - Setup all tests on SnapCI
 - Watch for SnapCI badge to be implemented [Outstanding GH PR](https://github.com/badges/shields/pull/492)
-- Work out some logical *suites* (note its on a per-file basis)
 
 ## Week of 27th
-- Experiment with benchpress
 - Try to test a directive myself
 - Try to test routing myself
+- MOCK SOMETHING LIKE HTTP BACKEND, THIS IS THE COOL PART!
 
 ## Week of 3rd
 - Polish slides into final presentation
@@ -60,7 +59,9 @@ x Snap-ci
 - Create an 'order' of commits to follow for live-coding
 - Practice live-coding
 
-## Maybe able to get done at work and report back?
+- Experiment with benchpress (would rather nail down Angular content)
+
+## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 22 days to presentation!
+## Countdown: 21 days to presentation!

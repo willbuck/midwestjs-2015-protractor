@@ -20,6 +20,9 @@ exports.config = {
         jasmine.getEnv().addReporter(new HtmlReporter({
             baseDirectory: './target/test-results/screenshots'
         }));
+        var width = 1080; 
+        var height = 1080;
+        browser.driver.manage().window().setSize(width, height);
     }
 };
 

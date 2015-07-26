@@ -20,10 +20,10 @@ x Snap-ci
   x Work out some logical *suites*, but on a per-file basis (TODO can it we do individual test methods without Cucumber?)
 
 #What I did today:
-- Added some reporting capabilities
+- Tests still fail on SnapCI but seem to run fine locally when not run all together. Could be rate limit problem, could be perhaps screen size problem?
 
 #Tomorrow:
-- Find out why tests aren't passing!! Ughh I need it to wait longer or something, spotty results
+- Look into mockHttpBackend to have something that narrows down failures
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -41,7 +41,7 @@ x Snap-ci
 
 ## Week of 27th
 - Try to test a directive myself
-- Try to test routing myself
+- Try to test route traversal myself
 - MOCK SOMETHING LIKE HTTP BACKEND, THIS IS THE COOL PART!
 
 ## Week of 3rd
@@ -64,4 +64,4 @@ x Snap-ci
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 21 days to presentation!
+## Countdown: 20 days to presentation!

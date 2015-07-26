@@ -69,9 +69,7 @@ describe('Prize-O-Tron', function() {
     
     describe('reset', function() {
       it('should take away all information, including imports from meetup.com API', function() {
-        var width = 1080; // NOTE: This test fails below 990-ish, reset button is pushed behind RSVPs
-        var height = 1080;
-        browser.driver.manage().window().setSize(width, height);
+        // NOTE: This test fails below 990-ish, reset button is pushed behind RSVPs        
         mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);
         expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_MEETUP_ATTENDEES_FOR_SECRET);
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);

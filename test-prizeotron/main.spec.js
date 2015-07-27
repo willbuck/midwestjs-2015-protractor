@@ -1,6 +1,7 @@
 /// <reference path="../typings/tsd.d.ts" />
 var MainPage = require('./main.po.js');
 var MainPageSecrets = require('./main.secrets.js');
+var MainPageHttpBackendMock = require('./main.httpBackendMocks.js');
 
 describe('Prize-O-Tron', function() {
   var mainpage,
@@ -42,12 +43,21 @@ describe('Prize-O-Tron', function() {
           expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         });
       });
-      describe('using a mocked http backend', function() {
-        // TODO this looks like it might be a lot harder than I thought
-        // it's late, start from here tomorrow:
-        // http://angular.github.io/protractor/#/api?view=Protractor.prototype.addMockModule
-        // https://www.committedcoder.com/using-protractor-mocks-pt-2.html
-      });
+      // describe('using a mocked http backend', function() {
+      //   it('should load pictures for a good apiKey and eventId', function() {
+      //     browser.addMockModule('httpBackEndMock', MainPageHttpBackendMock.build([MainPageHttpBackendMock.goodResponse]));
+      //     var eventId = 1;
+      //     var goodApiKey = 'good';            
+      //     mainpage.importEventData(goodApiKey, eventId);                
+      //     expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_MEETUP_ATTENDEES_FOR_SECRET);
+      //   });
+        
+      //   it('should load nothing for a bad apiKey and eventId', function() {            
+      //     browser.addMockModule('httpBackEndMock', MainPageHttpBackendMock.build([MainPageHttpBackendMock.badResponse]));
+      //     mainpage.importEventData(secrets.badApiKey, secrets.badEventId);        
+      //     expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
+      //   });
+      // });
     });        
     
     describe('selecting winners', function() {

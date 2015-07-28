@@ -15,3 +15,9 @@
 ## CI
 - [SnapCI](http://snap-ci.com)
 - [Thoughtworks blog post on Protractor usage for CI/CD](http://www.thoughtworks.com/insights/blog/hands-protractor-3-steps) 
+
+
+## HttpBackendMock issues
+- [ngMockE2E](https://docs.angularjs.org/api/ngMockE2E)
+- [Example Usage](https://www.committedcoder.com/using-protractor-mocks-pt-2.html)
+- [Another example further suggesting need for angular mocks](http://product.moveline.com/testing-angular-apps-end-to-end-with-protractor.html)

@@ -20,11 +20,10 @@ x Snap-ci
   x Work out some logical *suites*, but on a per-file basis (TODO can it we do individual test methods without Cucumber?)
 
 #What I did today:
-- Attempted Mock httpBackend with poor results, appear to be polluting tests
+- Further researched httpBackendMock issue, looks like real problem is the app under test needs to inject ngMockE2E
 
 #Tomorrow:
-- Attempt to fix mockHttpBackend tests, may not work without passthrough though :/
-- Write some tests for the simple app I did at Frontend Masters
+- Write some tests for the simple app I did at Frontend Masters?
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -65,4 +64,4 @@ x Snap-ci
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 19 days to presentation!
+## Countdown: 18 days to presentation!

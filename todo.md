@@ -20,11 +20,12 @@ x Snap-ci
   x Work out some logical *suites*, but on a per-file basis (TODO can it we do individual test methods without Cucumber?)
 
 #What I did today:
-- Got sucked into finishing Armada by Ernest Cline
-- Imported my code from FrontEndMasters to the project
+- Figured out using screenshots that tests failing on SnapCI are due to missing secrets! D'oh, how should I fix that though? 
+- Fixed a broken slide I found while demoing presentation to Prime Academy cohorts
+- Got re-acquainted with the Frontend Masters app from last week... maybe I should re-do it to be simpler?
 
 #Tomorrow:
-- Write some tests for the simple app I did at Frontend Masters?
+- Re-create or rework simple FrontEndMasters app to be easier to test 
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -37,8 +38,6 @@ x Snap-ci
 #Future TODO:
 
 ## Week of 20th
-- Setup all tests on SnapCI
-- Watch for SnapCI badge to be implemented [Outstanding GH PR](https://github.com/badges/shields/pull/492)
 
 ## Week of 27th
 - Try to test a directive myself
@@ -52,6 +51,7 @@ x Snap-ci
 
 ## Week of 10th
 - *Hopefully* just practice and polish! Maybe if I add more scope I'll encroach on this
+- Part of polishing! Add a Readme.md to each sub-folder
 
 #Potentially scrapped for being overly ambitious:
 - Try writing actual protractor directive as angular app & testing it
@@ -65,4 +65,4 @@ x Snap-ci
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 17 days to presentation!
+## Countdown: 16 days to presentation!

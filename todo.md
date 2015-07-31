@@ -18,14 +18,17 @@ x Snap-ci
   x Actually running my protractor tests
   x move protractor install to root so we can run the midwest-js specs as well
   x Work out some logical *suites*, but on a per-file basis (TODO can it we do individual test methods without Cucumber?)
+  x GOT EVERYTHING PASSING HELL TO THE YES!
+  
+x FeM Scott Moss blog project
+  x Got re-acquainted
 
 #What I did today:
-- Figured out using screenshots that tests failing on SnapCI are due to missing secrets! D'oh, how should I fix that though? 
-- Fixed a broken slide I found while demoing presentation to Prime Academy cohorts
-- Got re-acquainted with the Frontend Masters app from last week... maybe I should re-do it to be simpler?
+- FIXED THE SNAP CI BUILD! Found the place to upload the secrets, huzzah
 
 #Tomorrow:
-- Re-create or rework simple FrontEndMasters app to be easier to test 
+- Actually Re-create or rework simple FrontEndMasters app to be easier to test
+- Alternatively, we could probably just figure out how to run the json db, npm start for the gulp default static server, & protractor 
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -65,4 +68,4 @@ x Snap-ci
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 16 days to presentation!
+## Countdown: 15 days to presentation!

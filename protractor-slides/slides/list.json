@@ -31,7 +31,8 @@
         "how/conf.how.md"
     ],
     [
-        "ci/title.ci.md"        
+        "ci/title.ci.md",
+        "ci/reports.ci.md"        
     ],
     [
         "neutralWeb/basically.neutralWeb.md",

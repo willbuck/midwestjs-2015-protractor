@@ -24,7 +24,8 @@ x FeM Scott Moss blog project
   x Got re-acquainted
 
 #What I did today:
-- FIXED THE SNAP CI BUILD! Found the place to upload the secrets, huzzah
+- Added a slide
+- Evening largely dominated by bachelor party
 
 #Tomorrow:
 - Actually Re-create or rework simple FrontEndMasters app to be easier to test
@@ -68,4 +69,4 @@ x FeM Scott Moss blog project
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 15 days to presentation!
+## Countdown: 14 days to presentation!

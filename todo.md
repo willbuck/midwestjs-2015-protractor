@@ -24,8 +24,8 @@ x FeM Scott Moss blog project
   x Got re-acquainted
 
 #What I did today:
-- Added a slide
-- Evening largely dominated by bachelor party
+- Cleaned up README at the base of the project
+- Decided I need to refine what I have before going for a third app
 
 #Tomorrow:
 - Actually Re-create or rework simple FrontEndMasters app to be easier to test
@@ -69,4 +69,4 @@ x FeM Scott Moss blog project
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 14 days to presentation!
+## Countdown: 13 days to presentation!

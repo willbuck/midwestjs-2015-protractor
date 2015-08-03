@@ -1,6 +1,8 @@
 # protractor-midwestjs-2015
 Protractor Presentation in RevealJS and code materials demonstrating Protractor tests for MidwestJS 2015. 
 
+[![Build Status](https://snap-ci.com/willbuck/revealjs-midwestjs-2015/branch/develop/build_image)](https://snap-ci.com/willbuck/revealjs-midwestjs-2015/branch/develop)
+
 ## Brief description of each directory
 
 ### Benchpress-Tree

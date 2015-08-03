@@ -1,10 +1,6 @@
 var HtmlReporter = require('protractor-html-screenshot-reporter');
 
-exports.config = {	
-	specs: [
-        './test-midwestjs/*.spec.js',
-        './test-prizeotron/*.spec.js'
-    ],
+exports.config = {		
     suites: {
         midwestjs: './test-midwestjs/*.spec.js',
         prizeotron: './test-prizeotron/*.spec.js'

@@ -22,31 +22,23 @@ x Snap-ci
   
 x FeM Scott Moss blog project
   x Got re-acquainted
-
+  x Got basic tests running (though why isn't it bootstrapping angular?)
+  
 #What I did today:
-- Cleaned up README at the base of the project
-- Decided I need to refine what I have before going for a third app
+- Added pass shield to the base README
+- Added basic testing rig for my local front-end masters code 
 
 #Tomorrow:
-- Actually Re-create or rework simple FrontEndMasters app to be easier to test
-- Alternatively, we could probably just figure out how to run the json db, npm start for the gulp default static server, & protractor 
+- Run through the slides, see what needs shoring up
+- Start that process
+ 
 
 #Ongoing:
 - Write slides (a little progress each day)
   - Need more on withAngular
-  - Comment on httpBackend mocking?
-  
-- Prize-o-tron
-  - mock httpBackend? 
+  - Comment on httpBackend mocking?   
 
 #Future TODO:
-
-## Week of 20th
-
-## Week of 27th
-- Try to test a directive myself
-- Try to test route traversal myself
-- MOCK SOMETHING LIKE HTTP BACKEND, THIS IS THE COOL PART!
 
 ## Week of 3rd
 - Polish slides into final presentation
@@ -66,7 +58,11 @@ x FeM Scott Moss blog project
 
 - Experiment with benchpress (would rather nail down Angular content)
 
+- Testing route changes
+- Testing directives extensively
+- MockHttpBackend (I'll still try bt it isn't looking good)
+
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 13 days to presentation!
+## Countdown: 12 days to presentation!

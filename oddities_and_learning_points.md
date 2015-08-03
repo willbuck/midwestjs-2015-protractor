@@ -8,3 +8,4 @@
 - Brittle in non-angular land? 
 - Slow-ish, definitely
 - by.buttonText is very sensitive :( partialButtonText is helpful in this case but need to be wary
+- Why do I have an angular site I have to mark as non-angular? Is it a webpack thing?

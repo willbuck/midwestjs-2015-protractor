@@ -1,4 +1,4 @@
-## Sites Without Angular
+# Sites Without Angular
 
 Some sugar, but you're basically doing webdriver
 

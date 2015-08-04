@@ -6,4 +6,4 @@
 - You don't have to be an 'expert' to give a conference talk
 
 note:
- 	- I know this is off topic but I think it's important to say
+- I know this is off topic but I think it's important to say

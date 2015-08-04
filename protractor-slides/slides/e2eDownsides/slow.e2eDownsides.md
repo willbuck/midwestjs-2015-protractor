@@ -1,6 +1,7 @@
 ## They're Slow
 
-TODO Insert pokey animal picture here
+![Slow Squared](img/slow2.jpg "A Snail on a Turtle, Slow Squared")
 
 note:
-	- running a browser, clicking on things, simulating a user, these things take time	
+- Like snail on a turtle's back slow
+- running a browser, clicking on things, simulating a user, these things take time	

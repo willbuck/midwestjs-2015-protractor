@@ -25,13 +25,12 @@ x FeM Scott Moss blog project
   x Got basic tests running (though why isn't it bootstrapping angular?)
   
 #What I did today:
-- Added pass shield to the base README
-- Added basic testing rig for my local front-end masters code 
+- Ran through all the slides
+- Cleaned up notes
+- Added slides to the front half 
 
 #Tomorrow:
-- Run through the slides, see what needs shoring up
-- Start that process
- 
+- Add content to with and without angular portions on
 
 #Ongoing:
 - Write slides (a little progress each day)

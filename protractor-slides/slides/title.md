@@ -7,4 +7,4 @@ Will Buck
 [willbuck @ github](http://www.github.com/willbuck)
 
 note:
-    TODO add some images, github and twitter logos?
+

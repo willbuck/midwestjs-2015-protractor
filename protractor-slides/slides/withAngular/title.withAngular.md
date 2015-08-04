@@ -1,4 +1,4 @@
-## Using Protractor to test Angular Apps
+# Using Protractor to test Angular Apps
 
 (a.k.a. the tool's primary aim)
 

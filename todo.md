@@ -25,12 +25,12 @@ x FeM Scott Moss blog project
   x Got basic tests running (though why isn't it bootstrapping angular?)
   
 #What I did today:
-- Ran through all the slides
-- Cleaned up notes
-- Added slides to the front half 
+- Cleaned up READMEs 
+- Added insanely crude twitter and github links to bottom of slide deck
+- Attempted to publish gh-pages branch
 
 #Tomorrow:
-- Add content to with and without angular portions on
+- Add content to with and without angular portions on (for realz!)
 
 #Ongoing:
 - Write slides (a little progress each day)

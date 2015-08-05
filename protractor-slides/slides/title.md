@@ -1,10 +1,12 @@
-##  Checking Your Angles & Angulars With
+###  Checking Your Angles & Angulars With
 # Protractor.js
 
 Will Buck
-[@wbucksoft](http://www.twitter.com/wbucksoft)
 
-[willbuck @ github](http://www.github.com/willbuck)
+
+<img src="img/will-profile-400.jpg" style="height: 300px;"/ alt="Look at that guy, what a handsome thinkin' fella">
+
+Follow along with the slides @ [bit.ly/wb-mjs-2015](http://bit.ly/wb-mjs-2015)
 
 note:
-
+- Don't forget your name, slick

@@ -27,10 +27,11 @@ x FeM Scott Moss blog project
 #What I did today:
 - Cleaned up READMEs 
 - Added insanely crude twitter and github links to bottom of slide deck
-- Attempted to publish gh-pages branch
+- Added tinyurl link to the slides gh-pages (also *made* the gh-pages)
 
 #Tomorrow:
 - Add content to with and without angular portions on (for realz!)
+- Fix images in gh-pages branch
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -42,7 +43,7 @@ x FeM Scott Moss blog project
 ## Week of 3rd
 - Polish slides into final presentation
 - Practice it at least once (it's been enough in the past eh?)
-- Add my twitter handle & bit.ly link to the slides gh-pages (also *make* the gh-pages)
+- Add my twitter handle & tinyurl link to the slides gh-pages (also *make* the gh-pages)
 
 ## Week of 10th
 - *Hopefully* just practice and polish! Maybe if I add more scope I'll encroach on this

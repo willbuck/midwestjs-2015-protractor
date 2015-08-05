@@ -3,6 +3,10 @@ Protractor Presentation in RevealJS and code materials demonstrating Protractor 
 
 [![Build Status](https://snap-ci.com/willbuck/revealjs-midwestjs-2015/branch/develop/build_image)](https://snap-ci.com/willbuck/revealjs-midwestjs-2015/branch/develop)
 
+## Instructions
+I would recommend installing protractor, serve, and json-server globally, as all will be used in this project
+`npm install -g protractor serve json-server` 
+
 ## Brief description of each directory
 
 ### Benchpress-Tree

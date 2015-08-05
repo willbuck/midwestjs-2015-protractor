@@ -2,8 +2,6 @@
   "dependencies": {},
   "devDependencies": {
     "protractor": "^2.1.0",
-    "protractor-html-screenshot-reporter": "0.0.20",
-    "serve": "latest",
-    "json-server": "latest"
+    "protractor-html-screenshot-reporter": "0.0.20"    
   }
 }

@@ -31,17 +31,19 @@
         "how/conf.how.md"
     ],
     [
-        "ci/title.ci.md",
-        "ci/control.ci.md",
-        "ci/reports.ci.md"        
-    ],
-    [
-        "neutralWeb/basically.neutralWeb.md",
-        "neutralWeb/selectors.neutralWeb.md"
-    ],
+        "neutralWeb/title.neutralWeb.md",
+        "neutralWeb/setup.neutralWeb.md",
+        "neutralWeb/selectors.neutralWeb.md",
+        "neutralWeb/byCss.neutralWeb.md"
+    ],        
     [
         "withAngular/title.withAngular.md",
         "withAngular/buttons.withAngular.md"
+    ],
+    [
+        "ci/title.ci.md",
+        "ci/control.ci.md",
+        "ci/reports.ci.md"        
     ],
     [
       "gotchas/title.gotchas.md",

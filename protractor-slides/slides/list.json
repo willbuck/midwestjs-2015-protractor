@@ -39,6 +39,11 @@
     [
         "withAngular/title.withAngular.md",
         "withAngular/buttons.withAngular.md"
+    ],    
+    [
+      "gotchas/title.gotchas.md",
+      "gotchas/promises.gotchas.md",
+      "gotchas/console.gotchas.md"  
     ],
     [
         "ci/title.ci.md",
@@ -46,8 +51,9 @@
         "ci/reports.ci.md"        
     ],
     [
-      "gotchas/title.gotchas.md",
-      "gotchas/promises.gotchas.md"  
+      "relatedTools/title.relatedTools.md",
+      "relatedTools/sauce.relatedTools.md",
+      "relatedTools/benchpress.relatedTools.md"  
     ],
     [
       "presentationBG/confession.presentationBG.md",

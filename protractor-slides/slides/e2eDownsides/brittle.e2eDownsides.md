@@ -7,4 +7,5 @@ By adding up many little things, there are a multitude of reasons a test can bre
 note:
 - Brittle like peanut-brittle 
 - Many of these reasons don't conceptually 'break' the functionality
+- But they certainly could cause your test as you wrote it to fail
 - We have some means of mitigating this, but they aren't perfect

@@ -1,6 +1,7 @@
 ## A Page Object describing interesting elements
-Separate this out to keep any element finders out of the way of defining the test behavior
+- Forces us to define 'key pieces' of the page
+- Separates concerns to keep specs cleaner
+- Reduces repetition (Stay DRY y'all)
 
-This generally keeps the test cleaner and less likely to need 
- 
-changes and keeps us from needing to repeat ourselves
+note:
+- Discourage checking random elements willy nilly

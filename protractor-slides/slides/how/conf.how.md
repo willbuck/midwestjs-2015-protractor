@@ -9,4 +9,5 @@ exports.config = {
 ```
 
 note:
+- Tons of options here, be sure to check the docs (which browsers to run, preparation functions, etc)
 - THATS IT. That's all you need to get going testing any website

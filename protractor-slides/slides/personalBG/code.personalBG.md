@@ -9,3 +9,4 @@ note:
 - Angular for  > 2
 - Open minded to try new tech but fall back to what I know to get things done
 	
+- TRANSITION: But enough about me, let's talk about Protractor

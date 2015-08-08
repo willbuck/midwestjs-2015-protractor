@@ -24,18 +24,19 @@ x FeM Scott Moss blog project
   x Got re-acquainted
   x Got basic tests running (though why isn't it bootstrapping angular?)
   
+x Slides
+  x Made gh-pages and tinyurl for them
+  
 #What I did today:
-- Cleaned up READMEs 
-- Added insanely crude twitter and github links to bottom of slide deck
-- Added tinyurl link to the slides gh-pages (also *made* the gh-pages)
+- Ran through up to without angular practicing
+- Polished notes & spaced out slides along the way
 
 #Tomorrow:
-- Add content to with and without angular portions on (for realz!)
-- Fix images in gh-pages branch
+- Continue practicing from "Sites without Angular"
+- Continue polishing
 
 #Ongoing:
 - Write slides (a little progress each day)
-  - Need more on withAngular
   - Comment on httpBackend mocking?   
 
 #Future TODO:
@@ -65,4 +66,4 @@ x FeM Scott Moss blog project
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 12 days to presentation!
+## Countdown: 7 days to presentation!

@@ -68,7 +68,8 @@ describe('Prize-O-Tron', function() {
           while(numSelected < rsvpCount) {
             mainpage.selectWinnerButton.click();
             numSelected++;                  
-            expect(mainpage.remainingBadge.getText()).toBe('' + (rsvpCount - numSelected));          
+            expect(mainpage.remainingBadge.getText()).toBe('' + (rsvpCount - numSelected));
+            // expect(mainpage.attendeeList.length).toBe(rsvpCount - numSelected); // TODO find out why attendeeList is busted          
             expect(mainpage.selectedBadge.getText()).toBe('' + numSelected);                    
           }
           // Button should then become unclickable   

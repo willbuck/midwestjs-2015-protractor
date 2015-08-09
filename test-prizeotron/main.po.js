@@ -8,9 +8,11 @@ function MainPage() {
 	this.selectWinnerButton = element(by.partialButtonText('Prize Winner'));
 	this.resetButton = element(by.buttonText('Reset Everything'));
 	// Bindings
-	this.remainingBadge = element(by.binding('rsvps.length'))
-	this.selectedBadge = element(by.binding('selected.length'))
-	// TODO repeater lists here?	
+	this.remainingBadge = element(by.binding('rsvps.length'));
+	this.selectedBadge = element(by.binding('selected.length'));
+	// Repeaters
+	this.attendeeList = element(by.repeater('rsvps'));
+	this.winnerList = element(by.repeater('selected'));
 	// Utility functions
 	this.get = get;	
 	this.importEventData = importEventData;

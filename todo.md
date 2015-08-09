@@ -28,12 +28,12 @@ x Slides
   x Made gh-pages and tinyurl for them
   
 #What I did today:
-- Ran through up to without angular practicing
-- Polished notes & spaced out slides along the way
+- Heavy polish on With and Without Angular
+- 
 
 #Tomorrow:
-- Continue practicing from "Sites without Angular"
-- Continue polishing
+- Fix repeaters in prizeotron tests
+- Run through to check time (want to demo some code)
 
 #Ongoing:
 - Write slides (a little progress each day)
@@ -66,4 +66,4 @@ x Slides
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 7 days to presentation!
+## Countdown: 6 days to presentation!

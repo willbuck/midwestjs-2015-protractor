@@ -6,6 +6,6 @@ Inside this directory is images, markdown files, and file server to show the sli
 These slides are built with [generator-reveal](https://github.com/slara/generator-reveal)
 
 ## Instructions
-`grunt serve` should start the slides in your browser
+`npm start` should start the slides in your browser (by means of running `grunt serve`)
 
 Use the arrow keys or the spacebar to advance through them

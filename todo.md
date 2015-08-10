@@ -28,23 +28,14 @@ x Slides
   x Made gh-pages and tinyurl for them
   
 #What I did today:
-- Heavy polish on With and Without Angular
-- 
+- Ran the whole presentation to double check time, w/ some decent pauses to take notes I was right at 50 minutes
+- Have some things to add and some things I can speed up with practice
 
 #Tomorrow:
 - Fix repeaters in prizeotron tests
-- Run through to check time (want to demo some code)
-
-#Ongoing:
-- Write slides (a little progress each day)
-  - Comment on httpBackend mocking?   
+- Make all the changes I have in my notes
 
 #Future TODO:
-
-## Week of 3rd
-- Polish slides into final presentation
-- Practice it at least once (it's been enough in the past eh?)
-- Add my twitter handle & tinyurl link to the slides gh-pages (also *make* the gh-pages)
 
 ## Week of 10th
 - *Hopefully* just practice and polish! Maybe if I add more scope I'll encroach on this
@@ -66,4 +57,4 @@ x Slides
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 6 days to presentation!
+## Countdown: 5 days to presentation!

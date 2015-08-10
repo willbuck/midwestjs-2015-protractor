@@ -33,7 +33,8 @@
       it('should have a clickable twitter link to @midwest_js', function() {
           homepage.littleBirdie.getAttribute('href').then(function(linkTarget) {
             expect(linkTarget).toBe(homepage.littleBirdieLinkTarget);
-          });                                        
+          });
+          // TODO click on link target and assert browser location goes there?                                        
       });
     });  
   });

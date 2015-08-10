@@ -5,5 +5,8 @@ exports.config = {
     global.isAngularSite = function(flag){
         browser.ignoreSynchronization = !flag;
     };
+    var width = 1080; 
+    var height = 1080;
+    browser.driver.manage().window().setSize(width, height);
   }
 };

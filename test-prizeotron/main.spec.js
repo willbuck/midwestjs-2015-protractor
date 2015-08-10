@@ -18,8 +18,8 @@ describe('Prize-O-Tron', function() {
     
     describe('key inputs and display elements', function() {
       it('should have the page object elements present and in a default state', function() {            
-        expect(mainpage.eventIdInput.isPresent()).toBe(true);        
         expect(mainpage.apiKeyInput.isPresent()).toBe(true);
+        expect(mainpage.eventIdInput.isPresent()).toBe(true);                
         expect(mainpage.importButton.isPresent()).toBe(true);
         expect(mainpage.selectWinnerButton.isPresent()).toBe(true);
         expect(mainpage.resetButton.isPresent()).toBe(true);
@@ -43,6 +43,7 @@ describe('Prize-O-Tron', function() {
           expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         });
       });
+      // Couldn't get this to work, sad face :(
       // describe('using a mocked http backend', function() {
       //   it('should load pictures for a good apiKey and eventId', function() {
       //     browser.addMockModule('httpBackEndMock', MainPageHttpBackendMock.build([MainPageHttpBackendMock.goodResponse]));
@@ -87,7 +88,7 @@ describe('Prize-O-Tron', function() {
         mainpage.selectWinnerButton.click();
         mainpage.selectWinnerButton.click();
         expect(mainpage.selectedBadge.getText()).toBe('2');
-        browser.sleep(3000);        
+        browser.sleep(3000); // HAAXXXX WHYYY        
         mainpage.resetButton.click();
         expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);

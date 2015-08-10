@@ -23,6 +23,8 @@ The tests will fail if you have not updated your main.secrets.js and your main.s
 **PLEASE RUN** 
 `git update-index --assume-unchanged main.secrets.js`
 
+This should make git ignore any changes to the secrets file, saving you from publishing your API key by mistake.
+
 Please ensure that when you add your API key and eventID to that file, you do not accidentally check it in
 
 We call it secrets.js for a reason ;)

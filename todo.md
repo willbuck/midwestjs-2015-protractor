@@ -26,14 +26,15 @@ x FeM Scott Moss blog project
   
 x Slides
   x Made gh-pages and tinyurl for them
+  x Did a first run for time check and polish
   
 #What I did today:
-- Ran the whole presentation to double check time, w/ some decent pauses to take notes I was right at 50 minutes
-- Have some things to add and some things I can speed up with practice
+- Made all changes from my first pass notes
 
 #Tomorrow:
 - Fix repeaters in prizeotron tests
-- Make all the changes I have in my notes
+- Split reset test in prizeotron
+- Try out alternative to byPartialButtonText (does by.binding to a click handling function work?)
 
 #Future TODO:
 
@@ -52,9 +53,9 @@ x Slides
 
 - Testing route changes
 - Testing directives extensively
-- MockHttpBackend (I'll still try bt it isn't looking good)
+- MockHttpBackend (I'll still try but it isn't looking good)
 
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 5 days to presentation!
+## Countdown: 4 days to presentation!!!

@@ -22,14 +22,16 @@
         "E2EDownsides/title.E2EDownsides.md",
         "E2EDownsides/slow.E2EDownsides.md",
         "E2EDownsides/brittle.E2EDownsides.md",
-        "E2EDownsides/mitigation.E2EDownsides.md"
+        "E2EDownsides/mitigation.E2EDownsides.md",
+        "E2EDownsides/prioritizeCore.E2EDownsides.md"
     ],
     [
         "how/title.how.md",
         "how/protractor.how.md",
         "how/spec.how.md",
         "how/pageObject.how.md",
-        "how/conf.how.md"
+        "how/conf.how.md",
+        "how/thatsIt.how.md"
     ],
     [
         "neutralWeb/title.neutralWeb.md",
@@ -43,32 +45,36 @@
         "withAngular/robust.withAngular.md",
         "withAngular/mockHttp.withAngular.md",
         "withAngular/buttons.withAngular.md",
-        "withAngular/inAction.withAngular.md"
+        "withAngular/inAction.withAngular.md",
+        "withAngular/prizeotronRewrite.withAngular.md"
     ],    
     [
-      "gotchas/title.gotchas.md",
-      "gotchas/promises.gotchas.md",
-      "gotchas/console.gotchas.md"  
+        "gotchas/title.gotchas.md",
+        "gotchas/promises.gotchas.md",
+        "gotchas/console.gotchas.md"  
     ],
     [
         "ci/title.ci.md",
         "ci/control.ci.md",
-        "ci/reports.ci.md"        
+        "ci/reports.ci.md",
+        "ci/inAction.ci.md"        
     ],
     [
-      "relatedTools/title.relatedTools.md",
-      "relatedTools/sauce.relatedTools.md",
-      "relatedTools/benchpress.relatedTools.md"  
+        "relatedTools/title.relatedTools.md",
+        "relatedTools/sauce.relatedTools.md",
+        "relatedTools/benchpress.relatedTools.md"  
     ],
     [
-      "presentationBG/confession.presentationBG.md",
-      "presentationBG/crazy.presentationBG.md",
-      "presentationBG/angle.presentationBG.md",
-      "presentationBG/dare.presentationBG.md",
-      "presentationBG/prove.presentationBG.md",
-      "presentationBG/fear.presentationBG.md",
-      "presentationBG/learned.presentationBG.md"  
+        "presentationBG/confession.presentationBG.md",
+        "presentationBG/crazy.presentationBG.md",
+        "presentationBG/angle.presentationBG.md",
+        "presentationBG/dare.presentationBG.md",
+        "presentationBG/prove.presentationBG.md",
+        "presentationBG/fear.presentationBG.md",
+        "presentationBG/speakUp.presentationBG.md",
+        "presentationBG/learned.presentationBG.md"  
     ],    
     "thanks.md",
-    "resources.md"    
+    "resources.md",
+    "questions.md"    
 ]

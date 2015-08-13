@@ -4,10 +4,12 @@ Try by.partialButtonText
 ```
 this.importButton = element(by.partialButtonText('Import')); // Iffy
 ```
-or by.binding to a function TODO does this work?
+or by.css with the ng-click attribute
 ```
-this.importButton = element(by.binding('onImportClick'));
+this.importButton = element(by.css('[ng-click="importNames()"]'))
+// note that it might be data-ng-click
 ```
 
 note:
 - Pick a strategy and stick to it, be clear across your team
+- Prefer the users perspective (text) or prgrammers (ng-click)

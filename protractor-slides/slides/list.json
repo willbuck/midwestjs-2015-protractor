@@ -52,7 +52,8 @@
         "gotchas/title.gotchas.md",
         "gotchas/promises.gotchas.md",
         "gotchas/console.gotchas.md",
-        "gotchas/buttons.gotchas.md"  
+        "gotchas/buttons.gotchas.md",
+        "gotchas/ifStuck.gotchas.md"  
     ],
     [
         "ci/title.ci.md",

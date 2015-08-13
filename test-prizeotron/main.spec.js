@@ -25,6 +25,8 @@ describe('Prize-O-Tron', function() {
         expect(mainpage.resetButton.isPresent()).toBe(true);
         expect(mainpage.remainingBadge.isPresent()).toBe(true);
         expect(mainpage.selectedBadge.isPresent()).toBe(true);
+        expect(mainpage.selectedBadge.isPresent()).toBe(true);
+        // Note that repeaters are not on the page until they have something in them!
         expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT); 
       });
@@ -63,9 +65,13 @@ describe('Prize-O-Tron', function() {
     
     describe('selecting winners', function() {
       it('should reduce the count of RSVPs whenever a winner is selected, and increase the selected count', function() {
-        mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);
+        mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);                
+        
         mainpage.remainingBadge.getText().then(function(rsvpCount) {
           var numSelected = 0;
+          // After importing our data, the rsvps repeater should exist
+          expect(mainpage.attendeeList.isPresent()).toBe(true);
+          
           while(numSelected < rsvpCount) {
             mainpage.selectWinnerButton.click();
             numSelected++;                  
@@ -75,6 +81,8 @@ describe('Prize-O-Tron', function() {
           }
           // Button should then become unclickable   
           expect(mainpage.selectWinnerButton.isEnabled()).toBe(false);
+          // After adding a ton of winners, the selected repeater should exist
+          expect(mainpage.winnerList.isPresent()).toBe(true);
         });         
       });
     });    
@@ -87,15 +95,13 @@ describe('Prize-O-Tron', function() {
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         mainpage.selectWinnerButton.click();
         mainpage.selectWinnerButton.click();
-        expect(mainpage.selectedBadge.getText()).toBe('2');
-        browser.sleep(3000); // HAAXXXX WHYYY        
+        expect(mainpage.selectedBadge.getText()).toBe('2');             
         mainpage.resetButton.click();
         expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
       });
     });
     
-    // DONT test randomness, better served for unit test + mocking RNG / saying built-in is good enough
-        
+    // DONT test randomness, better served for unit test + mocking RNG / saying built-in is good enough        
   });    
 });

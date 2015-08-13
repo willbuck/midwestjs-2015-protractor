@@ -29,12 +29,13 @@ x Slides
   x Did a first run for time check and polish
   
 #What I did today:
-- Made all changes from my first pass notes
+- Cleaned up slides more
 
 #Tomorrow:
 - Fix repeaters in prizeotron tests
 - Split reset test in prizeotron
 - Try out alternative to byPartialButtonText (does by.binding to a click handling function work?)
+- Update the slide for it
 
 #Future TODO:
 
@@ -58,4 +59,4 @@ x Slides
 ## Maybe able to get done at work and report back? 
 - Using Cucumber (because ATDD ALL THE THINGS!)
 
-## Countdown: 4 days to presentation!!!
+## Countdown: 2 days to presentation!!!

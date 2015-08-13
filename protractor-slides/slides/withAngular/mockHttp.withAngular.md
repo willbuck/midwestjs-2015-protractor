@@ -1,8 +1,6 @@
-# Mocking out HTTP calls
+## Mocking out HTTP calls
 
-Unstable Backend? Why not mockberg?
-
-TODO make meme for this
+![Why not mock](img/whynotmock.jpg "This isnt a great joke is it")
 
 note:
 - This is the caveat I mentioned earlier

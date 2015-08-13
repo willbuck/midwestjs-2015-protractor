@@ -1,4 +1,4 @@
-# How do I only choose 5-10 core things?
+## How do I only choose 5-10 core things?
 
 Prioritize: what is most critical?
 

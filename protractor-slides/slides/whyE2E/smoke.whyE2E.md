@@ -1,4 +1,4 @@
-## Smoke test builds
+# Smoke test builds
 
 ![Where there's smoke](img/smoke-testing.jpg "There's a fire")
 

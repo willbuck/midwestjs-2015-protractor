@@ -12,12 +12,6 @@ I would recommend installing protractor, serve, and json-server globally, as all
 ### Benchpress-Tree
 Fork of project by Jeff B. Cross demonstrating how to run benchpress tests for macro performance metrics
 
-### ng-angle-measurer
-Currently abandoned attempt to checkily make a protractor directive and test it with protractor
-
-### ng-project-es6
-Currently unfinished attempt to test my own app
-
 ### protractor-slides
 Where the presentation slides I'll be running through are
 

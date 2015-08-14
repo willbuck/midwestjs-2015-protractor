@@ -16,5 +16,7 @@ describe('angularjs homepage todo list', function() {
 ```
 
 note:
-- Comment on default anatomy here: jasmine desc/it/expect, protractor element/by
+- Comment on default anatomy here: 
+- jasmine desc/it/expect, 
+- protractor element/by
 - Default is Jasmine but Mocha/Chai, Cucumber, etc also options

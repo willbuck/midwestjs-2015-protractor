@@ -11,4 +11,5 @@ protractor protractor.conf.js
 
 note:
 - Really pretty easy to get started with
-- Mind the conference wifi running npm install if you're trying to follow along though ;) 
+- Mind the conference wifi running npm install if you're trying to follow along though ;)
+- TRANSITION: So, now that we know what we need to get started, lets check out how we test some web pages! 

@@ -8,4 +8,5 @@ note:
 - Brittle like peanut-brittle 
 - Many of these reasons don't conceptually 'break' the functionality
 - But they certainly could cause your test as you wrote it to fail
+- Can also fail intermittently due to downtimes or hiccups in *any* of your potentially many integrations
 - We have some means of mitigating this, but they aren't perfect

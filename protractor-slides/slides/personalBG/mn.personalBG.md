@@ -6,4 +6,4 @@ note:
 - Family (wife & daughter),
 - schools,
 - weather (yes even winter, cozy w/ cocoa)
-- Great tech community
+- Great tech community (co-organize AngularMN)

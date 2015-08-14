@@ -24,8 +24,7 @@ describe('Prize-O-Tron', function() {
         expect(mainpage.selectWinnerButton.isPresent()).toBe(true);
         expect(mainpage.resetButton.isPresent()).toBe(true);
         expect(mainpage.remainingBadge.isPresent()).toBe(true);
-        expect(mainpage.selectedBadge.isPresent()).toBe(true);
-        expect(mainpage.selectedBadge.isPresent()).toBe(true);
+        expect(mainpage.selectedBadge.isPresent()).toBe(true);        
         // Note that repeaters are not on the page until they have something in them!
         expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT); 
@@ -35,14 +34,16 @@ describe('Prize-O-Tron', function() {
     
     describe('meetup API input boxes', function() {
       describe('using the live meetup API and secret key / eventId', function() {
-        it('should load pictures for a good apiKey and eventId', function() {            
+        it('should load people for a good apiKey and eventId', function() {            
           mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);                
           expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_MEETUP_ATTENDEES_FOR_SECRET);
+          expect(mainpage.attendeeList.isPresent()).toBe(true);          
         });
         
         it('should load nothing for a bad apiKey and eventId', function() {            
           mainpage.importEventData(secrets.badApiKey, secrets.badEventId);        
           expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);
+          expect(mainpage.attendeeList.isPresent()).toBe(false);
         });
       });
       // Couldn't get this to work, sad face :(
@@ -89,7 +90,7 @@ describe('Prize-O-Tron', function() {
     
     describe('reset', function() {
       it('should take away all information, including imports from meetup.com API', function() {
-        // NOTE: This test fails below 990-ish, reset button is pushed behind RSVPs        
+        // NOTE: This test fails below a browser width of 990-ish px, reset button is pushed behind RSVPs        
         mainpage.importEventData(secrets.goodApiKey, secrets.goodEventId);
         expect(mainpage.remainingBadge.getText()).toBe(EXPECTED_MEETUP_ATTENDEES_FOR_SECRET);
         expect(mainpage.selectedBadge.getText()).toBe(EXPECTED_DEFAULT_BADGE_TEXT);

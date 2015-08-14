@@ -1,6 +1,6 @@
 /// <reference path="../typings/tsd.d.ts" />
 function Homepage() {
-	this.mooCheese = element(by.css('div#logo img')); // MidwestJS Logo (The cheese says "Moooo")
+	this.mooCheese = element(by.css('div#logo img[src="images/midwestjs-logo-400.png"]')); // MidwestJS Logo (The cheese says "Moooo")
 	this.littleBirdie = element(by.css('div#logo div a:first-child')); // Twitter Logo
 	this.littleBirdieLinkTarget = "https://twitter.com/midwest_js";
 	this.get = get;

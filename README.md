@@ -1,6 +1,9 @@
 # protractor-midwestjs-2015
-Protractor Presentation in RevealJS and code materials demonstrating Protractor tests for MidwestJS 2015. 
+Protractor Presentation in RevealJS and code materials demonstrating Protractor tests for MidwestJS 2015.
 
+You can see the slide deck at the [github-pages url for this repo: willbuck.github.io/midwestjs-2015-protractor](willbuck.github.io/midwestjs-2015-protractor) 
+
+Check out the last test run on SnapCi below!
 [![Build Status](https://snap-ci.com/willbuck/midwestjs-2015-protractor/branch/develop/build_image)](https://snap-ci.com/willbuck/revealjs-midwestjs-2015/branch/develop)
 
 ## Instructions
